@@ -1,0 +1,1358 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The boke of Englysshe, and Spanysshe.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1554</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 34 KB of XML-encoded text transcribed from 18 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B08108</idno>
+            <idno type="STC">STC 23010.5</idno>
+            <idno type="STC">ESTC S95284</idno>
+            <idno type="EEBO-CITATION">68222983</idno>
+            <idno type="OCLC">ocm 68222983</idno>
+            <idno type="VID">183838</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B08108)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 183838)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 2202:4)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The boke of Englysshe, and Spanysshe.</title>
+               </titleStmt>
+               <extent>[30+] p.   </extent>
+               <publicationStmt>
+                  <publisher>Jmprinted by me Robert Wyer: Dwellynge in S. Martyns paryshe, at the sygne of saynt John Euangelyst besyde Charynge Crosse.,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>[1554?].</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Title from caption on leaf A₂r.</note>
+                  <note>Date of publication suggested by STC (nd ed.) .</note>
+                  <note>Imprint from colop.</note>
+                  <note>Signatures; A(-A₁)-D⁴.</note>
+                  <note>Imperfect: t.p. lacking.</note>
+                  <note>Reproduction of original in: British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Spanish language --  Conversation and phrase books --  Early works to 1800.</term>
+               <term>English language --  Conversation and phrase books --  Spanish --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-07</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2012-11</date>
+            <label>SPi Global</label>Rekeyed and resubmitted</change>
+         <change>
+            <date>2013-01</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2013-01</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:183838:1" rendition="simple:additions"/>
+            <pb facs="tcp:183838:2" rendition="simple:additions"/>
+            <pb facs="tcp:183838:3" rendition="simple:additions"/>
+            <pb facs="tcp:183838:3"/>
+            <head>¶ The boke of Englyſſhe, and Spanyſſhe.</head>
+            <div n="1" type="chapter">
+               <head>THe Fyrſte Chapyter is of god, of the Tri<g ref="char:EOLunhyphen"/>nytie, of power, &amp; of rythes.</head>
+               <head>EL primero Capi. esde Dios / y de la Trinidad / y de la potencia / y de la re<g ref="char:EOLhyphen"/>queza.</head>
+               <list>
+                  <item>God</item>
+                  <item>Dios</item>
+                  <item>Godheade holy</item>
+                  <item>deidad ſanta</item>
+                  <item>the Trinite</item>
+                  <item>Trinidad</item>
+                  <item>Father ſonne</item>
+                  <item>Padre Fiſo</item>
+                  <item>holy Ghoſte.</item>
+                  <item>ſanto eſpirito.</item>
+                  <item>Lorde God</item>
+                  <item>Sen<g ref="char:cmbAbbrStroke">̄</g>or Dios</item>
+                  <item>ſauyour redemer</item>
+                  <item>ſaluador redemptor</item>
+                  <item>power myghty</item>
+                  <item>poteſtad potente</item>
+                  <item>myght very ryche</item>
+                  <item>potencia muy rico</item>
+                  <item>ryche poore</item>
+                  <item>requeza pobre</item>
+                  <item>pouerte</item>
+                  <item>pobreza</item>
+                  <item>a poore man</item>
+                  <item>pobrezillo</item>
+                  <item>Idoles</item>
+                  <item>Idolos</item>
+                  <item>almyghtye.</item>
+                  <item>omnipotente.</item>
+               </list>
+            </div>
+            <div n="2" type="chapter">
+               <head>
+                  <list>
+                     <head>¶ The .ii. cha<g ref="char:EOLhyphen"/>piter of the Pater<g ref="char:EOLunhyphen"/>noſter and Aue Maria.</head>
+                     <pb facs="tcp:183838:4" rendition="simple:additions"/>
+                     <item>OVre Father whiche arte in heauen, Halo<g ref="char:EOLhyphen"/>wed be thy name, let come thy kyng<g ref="char:EOLunhyphen"/>dome, thy wyll be done, euen to in earthe as it is in heuen, oure dayly breade, gyue vs this day, and for<g ref="char:EOLhyphen"/>gyue vs our det<g ref="char:EOLhyphen"/>tes, as we forgy<g ref="char:EOLhyphen"/>ue oure detters, &amp; lede vs not in to temptacion.</item>
+                  </list>
+                  <list>
+                     <head>¶ El .ii. capi. del Pa<g ref="char:EOLhyphen"/>ternoſter y dell Aue Maria.</head>
+                     <item>PAdre nueſtro qui eres / en los cielos ſanctificado ſea eftu nombre venga el tuo reyno / faga ſe tu vo<g ref="char:EOLhyphen"/>luntad aſſy en el cie<g ref="char:EOLhyphen"/>lo como en la tierra / nueſtro pan / cotidia<g ref="char:EOLhyphen"/>no dadle a noſotros / oy y perdonna a no<g ref="char:EOLhyphen"/>ſotros nueſtra deuda como noſotros perdo namos a nueſtros de<g ref="char:EOLhyphen"/>udores y no no<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> tria<g ref="char:EOLhyphen"/>gas en t<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ntacion.</item>
+                  </list>
+               </head>
+               <list>
+                  <item>But delyuer vs from all euyll. Amen.</item>
+                  <item>Mas lifra nos de mal. Amen.</item>
+                  <item>¶ All hayle Ma<g ref="char:EOLhyphen"/>rye full of Grace, the lorde is with the. Bleſſed be y<hi rend="sup">u</hi> amonge women, and bleſſed be the fruite of thy wom<g ref="char:EOLunhyphen"/>be,
+<pb facs="tcp:183838:4"/>Ieſu Chriſt.</item>
+                  <item>¶ Aue Maria plena de gracia el Sennor contigo benedita tu / entre las mugeres y benedito el fruyto de tu vientre Ieſu Chriſto.</item>
+                  <item>Saint Mary mo<g ref="char:EOLunhyphen"/>ther of God, pray for vs poore Syn<g ref="char:EOLunhyphen"/>ners, now and in the houre of oure death. Amen.</item>
+                  <item>Sancta Maria ma<g ref="char:EOLhyphen"/>dre de Dios tuego ꝑ noſotros miſeros pec<g ref="char:EOLunhyphen"/>cadores agora y en la bora del nueſtre mu<g ref="char:EOLhyphen"/>erte. Amen.</item>
+                  <item>¶ Wherfore</item>
+                  <item>¶ Porque</item>
+                  <item>Why not</item>
+                  <item>porque no</item>
+                  <item>therfore</item>
+                  <item>por eſſo</item>
+                  <item>for nought</item>
+                  <item>por nada</item>
+                  <item>for what cauſe</item>
+                  <item>por que cauſa</item>
+                  <item>let it be ſo aboue</item>
+                  <item>a ſa bienda iuſo</item>
+                  <item>beneth es atiba</item>
+                  <item>ſodaynly ſoone</item>
+                  <item>ſubicamente preſto</item>
+                  <item>now gladly, with</item>
+                  <item>gora de buena</item>
+                  <item>a good wyll</item>
+                  <item>voluntad</item>
+                  <item>openlye</item>
+                  <item>publicamente</item>
+                  <item>from hence</item>
+                  <item>de aqui</item>
+                  <item>from this ſyde</item>
+                  <item>Alli</item>
+                  <item>fro yonder</item>
+                  <item>de alli</item>
+                  <pb facs="tcp:183838:5"/>
+                  <item>behynde</item>
+                  <item>de tras</item>
+                  <item>before</item>
+                  <item>de lante</item>
+                  <item>ouerwharte</item>
+                  <item>altru<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e</item>
+                  <item>withoute</item>
+                  <item>de fuera</item>
+                  <item>from the ſyde</item>
+                  <item>de lado</item>
+                  <item>after the length</item>
+                  <item>lue<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>go</item>
+                  <item>within a lytell</item>
+                  <item>dentro poco</item>
+                  <item>Inoughe</item>
+                  <item>aſſaz</item>
+                  <item>to moche</item>
+                  <item>aſſaz mucho</item>
+                  <item>moche</item>
+                  <item>mucho</item>
+                  <item>with me</item>
+                  <item>comigo</item>
+                  <item>withoute me</item>
+                  <item>fyn mi</item>
+                  <item>good chepe</item>
+                  <item>vuen marcado</item>
+                  <item>howe</item>
+                  <item>en que maneta</item>
+                  <item>where</item>
+                  <item>a donde</item>
+                  <item>in what place</item>
+                  <item>en que luger</item>
+                  <item>yee ſurelye</item>
+                  <item>aſſi ſeguramente</item>
+                  <item>yee more</item>
+                  <item>mattavien</item>
+                  <item>by the myddeſt</item>
+                  <item>pro medio</item>
+                  <item>thankefully</item>
+                  <item>de vuena voluntad</item>
+                  <item>one tyme</item>
+                  <item>Vna vez</item>
+                  <item>ſeconde tyme</item>
+                  <item>vna autra vez</item>
+                  <item>many wayes.</item>
+                  <item>diuerſo modo.</item>
+               </list>
+            </div>
+            <div n="3" type="chapter">
+               <pb facs="tcp:183838:5"/>
+               <head>¶ The .iii. Chapy<g ref="char:EOLunhyphen"/>ter is of ſpeches.</head>
+               <head>¶ El .iii. Cap. es de las palavras.</head>
+               <list>
+                  <item>¶ Euyll pleaſed</item>
+                  <item>¶ Mal<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> contento</item>
+                  <item>I am euyll pleſed</item>
+                  <item>yo ſoy mal contento</item>
+                  <item>I am not worthy</item>
+                  <item>yo no ſoy digno</item>
+                  <item>of my faſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hion</item>
+                  <item>Ami manera</item>
+                  <item>do after my mind</item>
+                  <item>Hazea mi voluntad</item>
+                  <item>I wyll not</item>
+                  <item>No quiero</item>
+                  <item>wherfore wylte thou not</item>
+                  <item>Por que ne quieres</item>
+                  <item>It pleſeth me not</item>
+                  <item>No me plaze</item>
+                  <item>It pleſeth me wel</item>
+                  <item>Bien me plaze</item>
+                  <item>I am begyled</item>
+                  <item>Soy agau<g ref="char:cmbAbbrStroke">̄</g>a<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o</item>
+                  <item>Of whome</item>
+                  <item>De quien</item>
+                  <item>Of a knaue</item>
+                  <item>De vn vellaco</item>
+                  <item>Abyde tarye let me do it</item>
+                  <item>Eſpera dexa me hazer</item>
+                  <item>It is a man of his mynde</item>
+                  <item>Labe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>udo</item>
+                  <item>I meruayle ſore, in doynge ſuche a thynge</item>
+                  <item>Me patece muy eſtra ino vazer ſemiantes coſas</item>
+                  <item>It is ſo who wol<g ref="char:EOLunhyphen"/>de haue beleued it</item>
+                  <item>Aſſy es quien lo cryeſſe</item>
+                  <pb facs="tcp:183838:6"/>
+                  <item>I am ſorye for his dedes</item>
+                  <item>Duelo me de ſus hechos</item>
+                  <item>Be pacyente</item>
+                  <item>Tene pacientia</item>
+                  <item>It is not true</item>
+                  <item>No es verdad</item>
+                  <item>Me thynke not</item>
+                  <item>Me pareſce de no</item>
+                  <item>Thou lyeſt</item>
+                  <item>Tumi<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ntes</item>
+                  <item>No verlye</item>
+                  <item>No a la fe</item>
+                  <item>I beleue the not</item>
+                  <item>No lo creo</item>
+                  <item>Why not</item>
+                  <item>Porque no</item>
+                  <item>It is done lor noughte</item>
+                  <item>Es hecho por nada aquello</item>
+                  <item>I wyll not do it for nought</item>
+                  <item>Nolo hazer por nado</item>
+                  <item>He was Idle all the daye thorowe</item>
+                  <item>Ha folgado to do el die</item>
+                  <item>It is euyll done</item>
+                  <item>Es mal hecho</item>
+                  <item>It is well done</item>
+                  <item>Es bien hecho</item>
+                  <item>He is aboue</item>
+                  <item>Es ariba</item>
+                  <item>He is not at home</item>
+                  <item>No eſta en caſa</item>
+                  <item>Where is he</item>
+                  <item>Donde eſta</item>
+                  <item>I can not tell</item>
+                  <item>No ſe</item>
+                  <item>Bowe the downe</item>
+                  <item>Baxate</item>
+                  <item>Aryſe go hence</item>
+                  <item>Leuanta te ve te</item>
+                  <item>What wylt thou</item>
+                  <pb facs="tcp:183838:6"/>
+                  <item>Que quieres</item>
+                  <item>I wyll nothynge</item>
+                  <item>No quito</item>
+                  <item>Syt downe</item>
+                  <item>Sienta te</item>
+                  <item>Gyue me rowme</item>
+                  <item>yf thou wylt</item>
+                  <item>Da me lugerſt tu quieres</item>
+                  <item>I thanke the</item>
+                  <item>y os lo agradeſco</item>
+                  <item>Syt ſtyll</item>
+                  <item>Sienta quedo</item>
+                  <item>Go ſoone</item>
+                  <item>Va a prieſſa</item>
+                  <item>Cauſe it be made</item>
+                  <item>Fas lo rehazar</item>
+                  <item>I haue done it</item>
+                  <item>Io lo hize</item>
+                  <item>I haue not don it</item>
+                  <item>No lo hize</item>
+                  <item>Thou haſt don it</item>
+                  <item>Tu lo heziſte</item>
+                  <item>Thou knoweſt</item>
+                  <item>Well who dyd it</item>
+                  <item>Tu lo ſabes bienqui en lo hizo</item>
+                  <item>It is fulle</item>
+                  <item>Eſt alleno</item>
+                  <item>It is emptye</item>
+                  <item>Eſt a vazio</item>
+                  <item>Come with me</item>
+                  <item>Ven co migo</item>
+                  <item>Helpe me</item>
+                  <item>Ayuda me</item>
+                  <item>Shewe me hym</item>
+                  <item>Mueſtra me le</item>
+                  <item>That ſhall I do</item>
+                  <item>yo lo quiero hazer</item>
+                  <item>I haue ſene hym</item>
+                  <item>yo le he viſto</item>
+                  <item>I knowe hym</item>
+                  <item>yo ſe cognoſco</item>
+                  <item>In the fyelde</item>
+                  <item>En la placa</item>
+                  <item>I am ſure that</item>
+                  <pb facs="tcp:183838:7"/>
+                  <item>they ſpake of the and me</item>
+                  <item>yo foy cierto qui eſſe</item>
+                  <item>habla de mi y de ti</item>
+                  <item>The ryght hande</item>
+                  <item>Lamano drecha</item>
+                  <item>The lefte hande</item>
+                  <item>La manoyz queerda</item>
+                  <item>Who loueth the</item>
+                  <item>Qui en te ama</item>
+                  <item>Begyn thou</item>
+                  <item>Commienca</item>
+                  <item>Aboue meaſure</item>
+                  <item>Sobre meſura</item>
+                  <item>What dideſt thou with the money</item>
+                  <item>Que feziſte tu con a<g ref="char:EOLhyphen"/>quelos dincros</item>
+                  <item>Yet haſt thou not giuen me my thin<g ref="char:EOLunhyphen"/>ge agayne</item>
+                  <item>Tu haſta agora ne me rendiſte mi coſa</item>
+                  <item>I ſhall gyue you it ſhortly</item>
+                  <item>yo to lo volue re<g ref="char:EOLunhyphen"/>preſto</item>
+                  <item>Looke you doo it ſoone, for I maye tary no longer</item>
+                  <item>Guarda que lo ha<g ref="char:EOLhyphen"/>gas preſto / por que yo no puedo mas ſeperar</item>
+                  <item>He wyll kyll me</item>
+                  <item>Aquell me quiere matar</item>
+                  <item>He is my deadlye enemye</item>
+                  <item>Aquell es mi enemy go mortall</item>
+                  <item>He hateth me and I wote not for what cauſe</item>
+                  <item>Aquell me quere mal y no ſe por que cauſa</item>
+                  <pb facs="tcp:183838:7"/>
+                  <item>Drawe faſt</item>
+                  <item>Tira fuerte</item>
+                  <item>Seeke this</item>
+                  <item>Pruebaeſta</item>
+                  <item>Conſydre it well before thou do it</item>
+                  <item>Pienſa bien anteque lo hagas</item>
+                  <item>He thoughte well vpon it, whan he ſawe it before his eyes</item>
+                  <item>Accorda baſe muy bien quando vino</item>
+                  <item>I wyll proue it yo quiero tenter</item>
+                  <item>He wyll not</item>
+                  <item>Eſte no quere</item>
+                  <item>Wylt thou come</item>
+                  <item>Quieres tu venit</item>
+                  <item>I wyll come now</item>
+                  <item>yo veendre agora</item>
+                  <item>Abyde a lytell</item>
+                  <item>Eſpeca vnpoco</item>
+                  <item>Comeſt thou</item>
+                  <item>Vines tu</item>
+                  <item>He ſygheth ſore</item>
+                  <item>Faze grandes ſoſpiros</item>
+                  <item>He is vexed</item>
+                  <item>Es turbado</item>
+                  <item>I hope</item>
+                  <item>Tengo eſperanca</item>
+                  <item>I am contente</item>
+                  <item>Soy contento</item>
+                  <item>It is to deare</item>
+                  <item>Mucho caro</item>
+                  <item>It repenteth me</item>
+                  <item>Peſame</item>
+                  <item>What cal ye this</item>
+                  <item>Como ſellama a<g ref="char:EOLhyphen"/>quella</item>
+                  <item>This man wylbe very ſure</item>
+                  <item>Aquell quiere ſer bien ſurego</item>
+                  <item>I coulde not wel tell it the</item>
+                  <pb facs="tcp:183838:8"/>
+                  <item>No te ſo ſabria bien dezir</item>
+                  <item>Se that thou fall in no ſyckenes</item>
+                  <item>Guarda te de caer en aſguna enferme dad</item>
+                  <item>It beco<g ref="char:cmbAbbrStroke">̄</g>meth me to weepe</item>
+                  <item>Conuienne me que</item>
+                  <item>Ilore</item>
+                  <item>It was nede for me to weepe</item>
+                  <item>Ea neceſſario que</item>
+                  <item>Ilore</item>
+                  <item>Thou mockeſt me</item>
+                  <item>Burlas me</item>
+                  <item>All hayle</item>
+                  <item>Dios vos ſalue</item>
+                  <item>God gyue you a good daye</item>
+                  <item>Dios os de buenas Dias</item>
+                  <item>A good yeare</item>
+                  <item>Buenos an<g ref="char:cmbAbbrStroke">̄</g>os</item>
+                  <item>God helpe you</item>
+                  <item>Dios vos ayude</item>
+                  <item>Moche good do it you</item>
+                  <item>Buena pro os haga</item>
+                  <item>I wyll</item>
+                  <item>yo quiero</item>
+                  <item>Thou woldeſt</item>
+                  <item>Tu queziſt<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </item>
+                  <item>He wyll</item>
+                  <item>Aquell quiere</item>
+                  <item>I wyll do it</item>
+                  <item>Quiero hazer</item>
+                  <item>I haue done</item>
+                  <item>yo hize</item>
+                  <item>Go, ſtande</item>
+                  <item>Ve / eſta</item>
+                  <item>Thou letteſt noo man ſleepe</item>
+                  <item>Tu a niuno dexa<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> dormyr</item>
+                  <item>Why?</item>
+                  <item>Por que?</item>
+                  <item>For thou doeſt no<g ref="char:EOLunhyphen"/>thynge
+<pb facs="tcp:183838:8"/>all nyght but ſnorke</item>
+                  <item>Por que toda la no<g ref="char:EOLhyphen"/>che no hazes ſino roncar</item>
+                  <item>Go ſleepe</item>
+                  <item>Ve a dormir</item>
+                  <item>Not yet</item>
+                  <item>Aun non</item>
+                  <item>Go, for thou muſt ryſe to morow be tymes</item>
+                  <item>Ve que es neceſſario que te luau<g ref="char:cmbAbbrStroke">̄</g>tes man<g ref="char:cmbAbbrStroke">̄</g>a<g ref="char:EOLhyphen"/>na / en buena hora</item>
+                  <item>What to do</item>
+                  <item>A que hazer</item>
+                  <item>Thou muſt beare letters to Mylan</item>
+                  <item>Es neceſſidad que p<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>ſtole las letras a Milan</item>
+                  <item>My Legge gre<g ref="char:EOLhyphen"/>ueth me ſo that I cannot go on fote</item>
+                  <item>Tanto me duele la pierna que no pudo caminer a pie</item>
+                  <item>Take a horſe</item>
+                  <item>Toma e cauallo</item>
+                  <item>Choſe me one</item>
+                  <item>Buſque me vno</item>
+                  <item>Thou haſt an ea<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>ſye lyfe</item>
+                  <item>Tu has bueno ti empo</item>
+                  <item>I roode</item>
+                  <item>Fui a cauello</item>
+                  <item>He went a fot<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </item>
+                  <item>Fue a pie</item>
+                  <item>I haue ben in that place</item>
+                  <item>yo fui na aquel luger</item>
+                  <item>Se that it be ryghte</item>
+                  <item>Mira que ſea iguall</item>
+                  <item>I wyll go from hence</item>
+                  <pb facs="tcp:183838:9"/>
+                  <item>yo quiero ander de aqui</item>
+                  <item>I maye remayne no longer</item>
+                  <item>No puedo reſtar mas</item>
+                  <item>Thou byndeſte to great a ferdell, y<hi rend="sup">u</hi> ſhalte not be able to bere it</item>
+                  <item>Tu attas muy gran has no lepodros Ileuer</item>
+                  <item>I ſhall beare it well</item>
+                  <item>Portero bien</item>
+                  <item>Thou ſhalte ſe</item>
+                  <item>Tu lo veras</item>
+                  <item>Let me care for that</item>
+                  <item>Dexa el cuyda do a my</item>
+                  <item>Gyue it me</item>
+                  <item>Da me a mi</item>
+                  <item>Open the doore</item>
+                  <item>A bre la puerta</item>
+                  <item>Gyue me the keye</item>
+                  <item>Da me la Ilabe</item>
+                  <item>Wylte thou gyue it me</item>
+                  <item>Quieres me lo dar</item>
+                  <item>I wyll not gyue it the</item>
+                  <item>No te lo quiero a ty<g ref="char:EOLunhyphen"/>dar</item>
+                  <item>Gyue here</item>
+                  <item>Da ca</item>
+                  <item>I can not open it</item>
+                  <item>No lo ſe obrir</item>
+                  <item>Shut the dore</item>
+                  <item>Cierra la puerta</item>
+                  <item>Kepe this</item>
+                  <item>Tien eſſo</item>
+                  <item>I am hungrye</item>
+                  <item>Tengo appetito de comer</item>
+                  <item>Art thou co<g ref="char:cmbAbbrStroke">̄</g>feſſed</item>
+                  <item>As te confeſſado</item>
+                  <item>From whence
+<pb facs="tcp:183838:9"/>commeth this</item>
+                  <item>De que viene eſo</item>
+                  <item>He is vannyſhed</item>
+                  <item>Eſta endeſtierro</item>
+                  <item>Go &amp; drawe wine</item>
+                  <item>Trahe dell vino</item>
+                  <item>Vnderſtandeſt th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>u</item>
+                  <item>Entendes tu</item>
+                  <item>Speake y<hi rend="sup">t</hi> I may vnderſtande the</item>
+                  <item>Habla que tu entienda</item>
+                  <item>It belongeth not to the</item>
+                  <item>Eo es vueſtto</item>
+                  <item>It is his</item>
+                  <item>Es ſuyo</item>
+                  <item>How much coſt it</item>
+                  <item>Cue vale</item>
+                  <item>What be toke<g ref="char:EOLhyphen"/>neth that</item>
+                  <item>Que ſignifica eſto</item>
+                  <item>Somthynge be<g ref="char:EOLhyphen"/>tokeneth it</item>
+                  <item>Algo ſignifica</item>
+                  <item>Fayre worke</item>
+                  <item>Obra harmoſa</item>
+                  <item>It is true</item>
+                  <item>Es verdad</item>
+                  <item>I bare it gladly</item>
+                  <item>yo lo a ſoftido de bu<g ref="char:EOLhyphen"/>ena gana</item>
+                  <item>I medle not</item>
+                  <item>Ne me empaches</item>
+                  <item>After a lytell tyme, whyle</item>
+                  <item>De aquia paco tie<g ref="char:cmbAbbrStroke">̄</g>po</item>
+                  <item>Of his owne coſt</item>
+                  <item>A ſu coſta</item>
+                  <item>My name</item>
+                  <item>Nombro mio</item>
+                  <item>Thy name</item>
+                  <item>Nombre tuyo</item>
+                  <item>In your name, on your behalfe</item>
+                  <pb facs="tcp:183838:10"/>
+                  <item>En nombre vueſtro</item>
+                  <item>The name of god</item>
+                  <item>Nombre de Dios</item>
+                  <item>I knowe not how they call hym</item>
+                  <item>No ſe como ſellama</item>
+                  <item>Howe thynkeſt thou</item>
+                  <item>Que te parece</item>
+                  <item>Deale thou it be<g ref="char:EOLhyphen"/>fore vs all</item>
+                  <item>Parte tuen preſentia de noſotros todos</item>
+                  <item>The tyme is not yet gone</item>
+                  <item>No es paſſado ell tiempo</item>
+                  <item>What is youre pleaſure</item>
+                  <item>Que os plaze</item>
+                  <item>Euery thynge</item>
+                  <item>Toda coſa</item>
+                  <item>One thynge</item>
+                  <item>Vna coſa</item>
+                  <item>A good Vnder<g ref="char:EOLhyphen"/>ſtandynge</item>
+                  <item>Buen ente<g ref="char:cmbAbbrStroke">̄</g>dimiento</item>
+                  <item>She holdeth me</item>
+                  <item>Eſſa me tiene</item>
+                  <item>It is ſhame</item>
+                  <item>He verguen ca</item>
+                  <item>If thou lette me not go, I ſhal tell thy father</item>
+                  <item>Sy no dexa / yo lo dite a tu padre</item>
+                  <item>Thou knoweſt not what I haue to do</item>
+                  <item>No ſabes tu que he de hazer</item>
+                  <item>Haue ye not yet ſolde your gere or wares</item>
+                  <item>Aun no haues venoi do vuetras cofas</item>
+                  <item>Yes God be thanked</item>
+                  <pb facs="tcp:183838:10"/>
+                  <item>Sy, gracias a Dios</item>
+                  <item>What wyl ye bye</item>
+                  <item>I wyll bye ſome thynge alſo</item>
+                  <item>Que quetroys com<g ref="char:EOLhyphen"/>prar, que yo tam bien querria comprar al<g ref="char:EOLhyphen"/>guna coſa</item>
+                  <item>If ye knewe anye good thynge</item>
+                  <item>Se teneis alguna co ſa buena</item>
+                  <item>Yea, I knowe ſpi<g ref="char:EOLunhyphen"/>ces, and other thynges</item>
+                  <item>Aſſy ſpecies / y otras coſas</item>
+                  <item>Come with mee, tell me trueth</item>
+                  <item>Vent comigo dime la verdad</item>
+                  <item>What Newes thynke ye vpon</item>
+                  <item>Que de nueuo recu<g ref="char:EOLhyphen"/>ardas</item>
+                  <item>And for euer worl<g ref="char:EOLunhyphen"/>de without ende.</item>
+                  <item>Amen.</item>
+                  <item>Sempeterno en Sy<g ref="char:EOLhyphen"/>glos de ſyglos.</item>
+                  <item>Amen.</item>
+               </list>
+            </div>
+            <div n="4" type="chapter">
+               <head>¶ The .iiij. chapy<g ref="char:EOLunhyphen"/>ter of the .x. Com<g ref="char:EOLunhyphen"/>maundementes.</head>
+               <head>¶ El .iiii. Ca. de los diez ma<g ref="char:EOLunhyphen"/>ndamientos.</head>
+               <list>
+                  <item>Tenne preceptes of GOD.</item>
+                  <item>Die<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> mandamien<g ref="char:EOLunhyphen"/>tos de Dios.</item>
+                  <item>BEleue in one GOD</item>
+                  <item>¶ Creo in vn Dios</item>
+                  <pb facs="tcp:183838:11"/>
+                  <item>Loue God</item>
+                  <item>Amaa Dios</item>
+                  <item>Loue thy neygh<g ref="char:EOLhyphen"/>boure as thy ſelfe</item>
+                  <item>Ama al proximo tui o como a ti meſmo</item>
+                  <item>Halowe the Sab<g ref="char:EOLunhyphen"/>bothe</item>
+                  <item>Buarda la fieſta</item>
+                  <item>Honoure Father and mother</item>
+                  <item>Honora padre y ma<g ref="char:EOLhyphen"/>dre</item>
+                  <item>Thou ſhalte not kyll</item>
+                  <item>No matares</item>
+                  <item>Thou ſhalte not ſteale</item>
+                  <item>No furtaras</item>
+                  <item>Thou ſhalte not breke wedlocke</item>
+                  <item>No cud<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ciatas</item>
+                  <item>Thou ſhalte not bere falſe wytnes</item>
+                  <item>No dygas falſo teſti<g ref="char:EOLhyphen"/>monio</item>
+                  <item>Thou ſhalte not coueyte another mans good</item>
+                  <item>No codicies la cofa aiena</item>
+                  <item>Thou ſhalte not deſyre another mans wyfe.</item>
+                  <item>No codicies la mugee de otro.</item>
+               </list>
+            </div>
+            <div n="5" type="chapter">
+               <head>¶ The .v. Chapy<g ref="char:EOLhyphen"/>teris of the ſeuen workes of mercy.</head>
+               <head>¶ El .v. Capit. de las ſeyte obras de miſeri cordia.</head>
+               <list>
+                  <item>¶ The ſeuen wor<g ref="char:EOLunhyphen"/>kes of mercye.</item>
+                  <item>Seyte obras de miſe<g ref="char:EOLunhyphen"/>ricordia.</item>
+                  <pb facs="tcp:183838:11"/>
+                  <item>TO Feede the hungrye</item>
+                  <item>MAntener los ambrientos</item>
+                  <item>To gyue the thur<g ref="char:EOLunhyphen"/>ſtye drynke</item>
+                  <item>Dar de Bener a los ſedientos</item>
+                  <item>To cloth y<hi rend="sup">e</hi> naked</item>
+                  <item>Ve feiti los deſnudos</item>
+                  <item>To vyſyte y<hi rend="sup">•</hi> ſycke</item>
+                  <item>Viſiter los enfermos</item>
+                  <item>To comforte the pryſoners</item>
+                  <item>Confortar los encar<g ref="char:EOLhyphen"/>celados</item>
+                  <item>To burie the deed</item>
+                  <item>Enterer los muertos</item>
+                  <item>And to lodge the ſtraungers</item>
+                  <item>A coger los pelegri<g ref="char:EOLhyphen"/>nos.</item>
+               </list>
+            </div>
+            <div n="6" type="chapter">
+               <head>¶ The .vi. Chapyter is of the ſeu<g ref="char:EOLunhyphen"/>en deedly ſynnes.</head>
+               <head>¶ El .vi. Capi. de<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> los ſeyte peccados mortales.</head>
+               <list>
+                  <item>¶ The ſeuen deed<g ref="char:EOLunhyphen"/>lye ſynnes.</item>
+                  <item>¶ Seyte peccados mortales.</item>
+               </list>
+               <list>
+                  <item>☞ Pryde</item>
+                  <item>☞ Soberuia</item>
+                  <item>Lecherye</item>
+                  <item>Lux<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ria</item>
+                  <item>Coueytouſnes</item>
+                  <item>Auaricia</item>
+                  <item>Wrathe</item>
+                  <item>Ira</item>
+                  <item>Glotonye</item>
+                  <item>Gula</item>
+                  <item>Enuye</item>
+                  <item>Inu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>dia</item>
+                  <item>Slouthfulnes.</item>
+                  <item>Acc<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>dia.</item>
+               </list>
+            </div>
+            <div n="7" type="chapter">
+               <pb facs="tcp:183838:12"/>
+               <head>¶ The .vii. Chapi<g ref="char:EOLunhyphen"/>ter is of ſymple Nombre.</head>
+               <head>¶ El. Cap. es de ſym<g ref="char:EOLunhyphen"/>ple Numero.</head>
+               <list>
+                  <item>ONE</item>
+                  <item>Vno</item>
+                  <item>Two</item>
+                  <item>Dos</item>
+                  <item>Three</item>
+                  <item>Trees</item>
+                  <item>Foure</item>
+                  <item>Quatro</item>
+                  <item>Fyue</item>
+                  <item>Cinco</item>
+                  <item>Syxe</item>
+                  <item>Seys</item>
+                  <item>Seuen</item>
+                  <item>Seyte</item>
+                  <item>Eyght</item>
+                  <item>Ocho</item>
+                  <item>Nyne</item>
+                  <item>Nueue</item>
+                  <item>Tenne</item>
+                  <item>Diez</item>
+                  <item>Aleuen</item>
+                  <item>Onze</item>
+                  <item>Twelue</item>
+                  <item>Doſe</item>
+                  <item>Thyrtene</item>
+                  <item>Treze</item>
+                  <item>Fouretene</item>
+                  <item>Quatorze</item>
+                  <item>Fyftene</item>
+                  <item>Quinze</item>
+                  <item>Syxetene</item>
+                  <item>Dieze ſeys</item>
+                  <item>Seuentene</item>
+                  <item>Dieze e ſeyte</item>
+                  <item>Eyghtene</item>
+                  <item>Dieze e ocho</item>
+                  <item>Nynetene</item>
+                  <item>Dieze e nueue</item>
+                  <item>Twentye</item>
+                  <item>Veynte</item>
+                  <item>One and twentye</item>
+                  <item>Veynte vno</item>
+                  <pb facs="tcp:183838:12"/>
+                  <item>Two and twenty</item>
+                  <item>Veynte dos</item>
+                  <item>Thre and twenty</item>
+                  <item>Veynte trees</item>
+                  <item>Foure &amp; twentye</item>
+                  <item>Veynte quatro</item>
+                  <item>Fyue and twenty</item>
+                  <item>Veynte cinco</item>
+                  <item>Syxe and twenty</item>
+                  <item>Veynte ſeys</item>
+                  <item>Seuen &amp; twenty</item>
+                  <item>Vyente ſeyte</item>
+                  <item>Eyght &amp; twentye</item>
+                  <item>Veynte ocho</item>
+                  <item>Nine and twenty</item>
+                  <item>Veynte nueue</item>
+                  <item>Thyrtye</item>
+                  <item>Treynte</item>
+                  <item>Fortye</item>
+                  <item>Quarente</item>
+                  <item>Fyftye</item>
+                  <item>Cinquenta</item>
+                  <item>Sextye</item>
+                  <item>Seſſenta</item>
+                  <item>Seuentye</item>
+                  <item>Setenta</item>
+                  <item>Eyghtye</item>
+                  <item>Ochenta</item>
+                  <item>Nynetye</item>
+                  <item>Nouenta</item>
+                  <item>A hundred</item>
+                  <item>Ciento</item>
+                  <item>Two hondred</item>
+                  <item>Dozentos</item>
+                  <item>Thre hondred</item>
+                  <item>Trezientos</item>
+                  <item>Foure hondred</item>
+                  <item>quatrozientos</item>
+                  <item>Fyue hondred</item>
+                  <item>quinientos</item>
+                  <item>A thouſande</item>
+                  <item>Myſſ</item>
+                  <item>Two thouſande</item>
+                  <item>Dos myll</item>
+                  <item>Thre thouſande</item>
+                  <item>Trees myll</item>
+                  <item>A thouſande ty<g ref="char:EOLhyphen"/>mes thouſande.</item>
+                  <pb facs="tcp:183838:13"/>
+                  <item>Myll myllares.</item>
+               </list>
+            </div>
+            <div n="8" type="chapter">
+               <head>¶ The .viij. Cha<g ref="char:EOLhyphen"/>pyter is of tyme, yere, month, weke and daye.</head>
+               <head>¶ El .viii. Ca. es dell tiempo / anno / mes / ſamana / y dia.</head>
+               <list>
+                  <item>¶ Tyme</item>
+                  <item>¶ Tiempo</item>
+                  <item>Worldely</item>
+                  <item>Mundano</item>
+                  <item>Chriſten</item>
+                  <item>El Chriſtiano</item>
+                  <item>The yeare</item>
+                  <item>Anno</item>
+                  <item>The month</item>
+                  <item>El mes</item>
+                  <item>The weke</item>
+                  <item>La ſemana</item>
+                  <item>The daye</item>
+                  <item>El dia</item>
+                  <item>An houre</item>
+                  <item>La hora</item>
+                  <item>Mydnyght</item>
+                  <item>La media noche</item>
+                  <item>To morowe</item>
+                  <item>La manana</item>
+                  <item>The euenynge</item>
+                  <item>La tarde</item>
+                  <item>The noone daye</item>
+                  <item>Mediodia</item>
+                  <item>The ſprynge</item>
+                  <item>Verano</item>
+                  <item>Harueſt</item>
+                  <item>Autumno</item>
+                  <item>Whytſondaye</item>
+                  <item>Paſcua de mayo</item>
+                  <item>Aduente</item>
+                  <item>Aduenimiento</item>
+                  <item>Chriſtmas</item>
+                  <item>Natiuidad</item>
+                  <item>Newyere tyde</item>
+                  <item>Circumciſio</item>
+                  <item>The .xii. daye</item>
+                  <item>Trees teys</item>
+                  <item>Sroftyde</item>
+                  <pb facs="tcp:183838:13"/>
+                  <item>Catnes tollendas</item>
+                  <item>Aſſencion</item>
+                  <item>Aſcencion</item>
+                  <item>Myd lent</item>
+                  <item>Media quareſma</item>
+                  <item>Mau<g ref="char:cmbAbbrStroke">̄</g>dy thurſday</item>
+                  <item>Iueues ſanto</item>
+                  <item>Eaſter</item>
+                  <item>Paſcua</item>
+                  <item>An holydaye</item>
+                  <item>Fieſta</item>
+                  <item>workedaye</item>
+                  <item>Dia de la brar</item>
+                  <item>To laboure</item>
+                  <item>Labrar</item>
+               </list>
+               <list>
+                  <item>Sondaye</item>
+                  <item>Domyngo</item>
+                  <item>Mondaye</item>
+                  <item>Lunes</item>
+                  <item>Teuſdaye</item>
+                  <item>Martes</item>
+                  <item>Wedneſdaye</item>
+                  <item>Miercoles</item>
+                  <item>Thurſdaye</item>
+                  <item>Iueues</item>
+                  <item>Frydaye</item>
+                  <item>Viernes</item>
+                  <item>Saturdaye</item>
+                  <item>Sabbato</item>
+                  <item>Yeſterdaye</item>
+                  <item>Ayer</item>
+                  <item>To make peace</item>
+                  <item>Patto fazer</item>
+                  <item>O that it muſt be done, the thynge that pleaſeth me.</item>
+                  <item>A mi voluntad falta que ſe haga foque me plaze.</item>
+               </list>
+            </div>
+            <div n="9" type="chapter">
+               <head>¶ The .ix. Chapy<g ref="char:EOLunhyphen"/>ter of ſeruauntes</head>
+               <head>¶ El .ix. Capitul. de los ſeruidores.</head>
+               <list>
+                  <item>A foote man</item>
+                  <item>Pon</item>
+                  <pb facs="tcp:183838:14"/>
+                  <item>A ſeruaunt</item>
+                  <item>Mo<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </item>
+                  <item>A mayden</item>
+                  <item>Moca</item>
+                  <item>To ſerue</item>
+                  <item>Seruir</item>
+                  <item>A yonge man</item>
+                  <item>Mancebo</item>
+                  <item>Yonge men</item>
+                  <item>Mancebos</item>
+                  <item>A Chylde</item>
+                  <item>Mochacho</item>
+                  <item>Chyldren</item>
+                  <item>Mochachos</item>
+                  <item>A man chylde</item>
+                  <item>Varon</item>
+                  <item>A woman chylde.</item>
+                  <item>Mochacha.</item>
+               </list>
+            </div>
+            <div n="10" type="chapter">
+               <head>¶ The .x. Chapy<g ref="char:EOLhyphen"/>ter of Graunde fa<g ref="char:EOLunhyphen"/>ther, and all the kynted.</head>
+               <head>¶ El x. Capit. de lo biſaguello / y to do el parenteſco.</head>
+               <list>
+                  <item>¶ Graundfather</item>
+                  <item>Byſaguello</item>
+                  <item>Graundmother</item>
+                  <item>Aguelo</item>
+                  <item>A Father</item>
+                  <item>Padre</item>
+                  <item>A Mother</item>
+                  <item>Madre</item>
+                  <item>A ſtepfather</item>
+                  <item>Padrino</item>
+                  <item>A ſtepmother</item>
+                  <item>Madraſtra</item>
+                  <item>A Sonne</item>
+                  <item>Et hiio</item>
+                  <item>A doughter</item>
+                  <item>Hiia</item>
+                  <item>A ſtepſonne</item>
+                  <item>El a<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>iado</item>
+                  <item>A ſtepdoughter</item>
+                  <item>La ahiiada</item>
+                  <pb facs="tcp:183838:14"/>
+                  <item>A Brother</item>
+                  <item>El hermano</item>
+                  <item>A Syſter</item>
+                  <item>La hermana</item>
+                  <item>A baſtarde ſonne</item>
+                  <item>El baſtardo</item>
+                  <item>A Baſtarde doughter</item>
+                  <item>La baſtarda</item>
+                  <item>A kynſeman</item>
+                  <item>El pariente</item>
+                  <item>A frynde</item>
+                  <item>El amigo</item>
+                  <item>A Tutoure</item>
+                  <item>El tutor</item>
+                  <item>An Vncle</item>
+                  <item>El tyo</item>
+                  <item>An Aunte</item>
+                  <item>La tya</item>
+                  <item>An Heyre</item>
+                  <item>El heredero</item>
+                  <item>A neyghboure</item>
+                  <item>El proximo</item>
+                  <item>An huſbande</item>
+                  <item>El maarido</item>
+                  <item>An huſwyfe</item>
+                  <item>La muger</item>
+                  <item>A woman</item>
+                  <item>La hembra</item>
+                  <item>A wyfe</item>
+                  <item>La muger</item>
+                  <item>Our mayſtres</item>
+                  <item>Nueſtra muger</item>
+                  <item>A Vyrgyn</item>
+                  <item>La donzelia</item>
+                  <item>An hondmayden</item>
+                  <item>Moca</item>
+                  <item>An whore.</item>
+                  <item>Putan.</item>
+               </list>
+            </div>
+            <div n="11" type="chapter">
+               <head>¶ The xi. Chapy<g ref="char:EOLunhyphen"/>ter of Houſſholde ſtuffe and clothes</head>
+               <head>¶ El .xi. Capitu. e<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> del apareſo caſa y veſtido.</head>
+               <pb facs="tcp:183838:15"/>
+               <list>
+                  <item>¶ Houſſholde ſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>uffe.</item>
+                  <item>¶ Apero de caſa</item>
+                  <item>A coote</item>
+                  <item>Savo</item>
+                  <item>A ſherte</item>
+                  <item>Camiſa</item>
+                  <item>Breeches</item>
+                  <item>Braga</item>
+                  <item>An hatte</item>
+                  <item>Chapeo</item>
+                  <item>A hoode</item>
+                  <item>Capa</item>
+                  <item>A ſleue</item>
+                  <item>Magna</item>
+                  <item>A Partlet</item>
+                  <item>Coller</item>
+                  <item>Hoſen</item>
+                  <item>Caſcas</item>
+                  <item>Shooes</item>
+                  <item>Capatos</item>
+                  <item>Slyppers</item>
+                  <item>Galochas</item>
+                  <item>Sockes</item>
+                  <item>Pantoflos</item>
+                  <item>A gyrdle</item>
+                  <item>Cinta</item>
+                  <item>Doublet</item>
+                  <item>Iube<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </item>
+                  <item>Lynynge</item>
+                  <item>Enſorto</item>
+                  <item>A clocke</item>
+                  <item>Manto</item>
+                  <item>Furre</item>
+                  <item>Pelleta</item>
+                  <item>A Purſe</item>
+                  <item>Alhaia</item>
+                  <item>A Pearſer to bo<g ref="char:EOLhyphen"/>re thorowe</item>
+                  <item>Hurador furada<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </item>
+                  <item>A garmente</item>
+                  <item>Veſtidura</item>
+                  <item>A cheyne of golde</item>
+                  <item>Cananedora</item>
+                  <item>A Rynge</item>
+                  <item>Anillo</item>
+                  <item>A Gloue</item>
+                  <item>Guantes</item>
+                  <pb facs="tcp:183838:15"/>
+                  <item>Poyntes.</item>
+                  <item>Correa agueati.</item>
+               </list>
+            </div>
+            <div n="12" type="chapter">
+               <head>¶ The .xij. Chapy<g ref="char:EOLunhyphen"/>ter of breade, and Wyne, and other thynges to be eaten.</head>
+               <head>¶ El .xii. capi. es dell pan y / del <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> / y de todas ſas coſos / de comer.</head>
+               <list>
+                  <item>¶ Breade</item>
+                  <item>¶ Pan</item>
+                  <item>Wynt</item>
+                  <item>Vino</item>
+                  <item>Vynegre</item>
+                  <item>Vinagre</item>
+                  <item>Verioyce</item>
+                  <item>Agraz</item>
+                  <item>Muſtarde</item>
+                  <item>Moſtaza</item>
+                  <item>Fieſſhe</item>
+                  <item>Carne</item>
+                  <item>Fatte</item>
+                  <item>Gordo</item>
+                  <item>A puddynge</item>
+                  <item>Gurduta</item>
+                  <item>Salte</item>
+                  <item>Sall</item>
+                  <item>Butter</item>
+                  <item>Longaniza</item>
+                  <item>Cheeſe</item>
+                  <item>Manteca, queſo</item>
+                  <item>Mylke</item>
+                  <item>Leche</item>
+                  <item>Buttermylke</item>
+                  <item>Leche quaſada</item>
+                  <item>Creame</item>
+                  <item>Nata de leche</item>
+                  <item>Potage</item>
+                  <item>Coſina</item>
+                  <item>To eate</item>
+                  <item>Comer</item>
+                  <item>To make goo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> chere</item>
+                  <item>Triumphamos</item>
+                  <item>To drynke</item>
+                  <pb facs="tcp:183838:16"/>
+                  <item>Beuer</item>
+                  <item>Adronkerde</item>
+                  <item>Boracho</item>
+                  <item>To ſleepe</item>
+                  <item>Dormir</item>
+                  <item>To aryſe</item>
+                  <item>Leuentar</item>
+                  <item>To go to bed</item>
+                  <item>Id a dormir</item>
+                  <item>Brekefaſte</item>
+                  <item>Coſacion</item>
+                  <item>a Dyner</item>
+                  <item>Comer</item>
+                  <item>a Reare dyner</item>
+                  <item>la merienda</item>
+                  <item>To eate at after Noone</item>
+                  <item>Merendar</item>
+                  <item>We wyll breake our faſte</item>
+                  <item>Queremos fazer colacion</item>
+                  <item>God be thanked.</item>
+                  <item>Adios gratias.</item>
+               </list>
+            </div>
+            <div n="13" type="chapter">
+               <head>¶ The .xiii. Cha<g ref="char:EOLhyphen"/>piter of the De<g ref="char:EOLhyphen"/>uell, of hel and of purgatorye.</head>
+               <head>¶ El .xiii. Ca. es los Diabolos / y dell in<g ref="char:EOLhyphen"/>ferno / y dell purga<g ref="char:EOLhyphen"/>torio.</head>
+               <list>
+                  <item>¶ The Deuell</item>
+                  <item>¶ Diabolo</item>
+                  <item>Euyll ſpyrite</item>
+                  <item>El ſpirito maligno</item>
+                  <item>Enemye euerla<g ref="char:EOLhyphen"/>ſtyng deth</item>
+                  <item>Ennemigo eterna Muerte</item>
+                  <item>Hell</item>
+                  <item>Infierno</item>
+                  <item>Purgatory</item>
+                  <item>Purgatorio</item>
+                  <item>In the darke</item>
+                  <item>En obſcuro</item>
+                  <item>Lyghte</item>
+                  <item>la luz, lumbra</item>
+                  <pb facs="tcp:183838:16"/>
+                  <item>Payne</item>
+                  <item>Pena</item>
+                  <item>Torment</item>
+                  <item>Tormento</item>
+                  <item>Curſed</item>
+                  <item>Maldito</item>
+                  <item>Dampned</item>
+                  <item>Dannado</item>
+                  <item>Clenſed</item>
+                  <item>Purgado</item>
+                  <item>Chaſtened</item>
+                  <item>Caſtygado</item>
+                  <item>To chaſten.</item>
+                  <item>Caſtigar.</item>
+               </list>
+            </div>
+            <div n="14" type="chapter">
+               <head>¶ The .xiiii. Cha of golde, ſyluer, and of all other metales y<hi rend="sup">t</hi> maye be caſte.</head>
+               <head>¶ El .xiiii Ca. es del Oro / y plata / y de to das las coſas que ſe deſhazen.</head>
+               <list>
+                  <item>¶ Golde</item>
+                  <item>¶ Oro</item>
+                  <item>Gyited</item>
+                  <item>Dorado</item>
+                  <item>Sylurt</item>
+                  <item>Plata</item>
+                  <item>Syluer veſſell</item>
+                  <item>Plateria</item>
+                  <item>Copper</item>
+                  <item>Cobre</item>
+                  <item>Tynne</item>
+                  <item>Eſtanno</item>
+                  <item>Scomme of ſiluer</item>
+                  <item>Peltrez</item>
+                  <item>Latton</item>
+                  <item>Laton</item>
+                  <item>Yron</item>
+                  <item>Fero</item>
+                  <item>Stele</item>
+                  <item>Acciell</item>
+                  <item>a Kettell</item>
+                  <item>Calderon</item>
+                  <item>a Nayle</item>
+                  <item>Clauos</item>
+                  <pb facs="tcp:183838:17"/>
+                  <item>A Nedle</item>
+                  <item>Aguias</item>
+                  <item>a Thymble.</item>
+                  <item>Dedall.</item>
+               </list>
+            </div>
+            <div n="15" type="chapter">
+               <head>¶ The .xv. Chapi<g ref="char:EOLunhyphen"/>ter is of ſpyres.</head>
+               <head>¶ El .xv. Capi. eſ de le eſpezia.</head>
+               <list>
+                  <item>¶ P<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>per</item>
+                  <item>¶ Pimenta</item>
+                  <item>Gynger</item>
+                  <item>Gyngybre</item>
+                  <item>Nutmegges</item>
+                  <item>Nu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s muſcada</item>
+                  <item>Clowes</item>
+                  <item>Clauos</item>
+                  <item>Longe pepper</item>
+                  <item>Pimenta luenga</item>
+                  <item>Cynamom</item>
+                  <item>Canela</item>
+                  <item>Incenſe</item>
+                  <item>Encienſo</item>
+                  <item>Myrre</item>
+                  <item>Myrra</item>
+                  <item>Suger</item>
+                  <item>Acucar</item>
+                  <item>Safron</item>
+                  <item>Acaſran</item>
+                  <item>Aloepaticum</item>
+                  <item>Aloepatico</item>
+                  <item>Sope</item>
+                  <item>Xabon</item>
+                  <item>Cotton ſylke</item>
+                  <item>Algodon</item>
+                  <item>Almondes</item>
+                  <item>Almendra</item>
+                  <item>Ryce</item>
+                  <item>Arros</item>
+                  <item>Roſyne</item>
+                  <item>Dua paſſa</item>
+                  <item>Fygges</item>
+                  <item>Figo</item>
+                  <item>Oyle</item>
+                  <item>Aſeyte</item>
+                  <item>Comyne</item>
+                  <item>Eomino</item>
+                  <item>Anys</item>
+                  <pb facs="tcp:183838:17"/>
+                  <item>Anys</item>
+                  <item>Cheſnottes</item>
+                  <item>Caſtanna</item>
+                  <item>An aple</item>
+                  <item>Mancana</item>
+                  <item>A peare</item>
+                  <item>Pera</item>
+                  <item>A nutte</item>
+                  <item>Nuez</item>
+                  <item>A haſelnot.</item>
+                  <item>Auellanas</item>
+                  <item>Sylke.</item>
+                  <item>Seda.</item>
+               </list>
+            </div>
+            <div n="16" type="chapter">
+               <head>¶ The .xvi. Chap. of warres, batayl<g ref="char:EOLunhyphen"/>les and players.</head>
+               <head>¶ El .xvi. Cap. de la guera / y de los Iu<g ref="char:EOLhyphen"/>gadores.</head>
+               <list>
+                  <item>¶ Warre</item>
+                  <item>¶ Guera</item>
+                  <item>To iuſt</item>
+                  <item>Iuſtar</item>
+                  <item>A pauileon</item>
+                  <item>Peuerſon</item>
+                  <item>An doſt</item>
+                  <item>Exercicio</item>
+                  <item>Companies</item>
+                  <item>Eſquadras</item>
+                  <item>A banner</item>
+                  <item>Bandera</item>
+                  <item>To make peace</item>
+                  <item>Fazer paz</item>
+                  <item>Treaſon</item>
+                  <item>Traycion</item>
+                  <item>A thefe</item>
+                  <item>Ladron</item>
+                  <item>A rybalde</item>
+                  <item>Dellaco</item>
+                  <item>Knauery</item>
+                  <item>Vellaqueria</item>
+                  <item>A knaue</item>
+                  <item>Dellaco</item>
+                  <item>To bewytche</item>
+                  <item>Encanter</item>
+                  <item>The ſtewes</item>
+                  <item>Putaria</item>
+                  <pb facs="tcp:183838:18"/>
+                  <item>An whore</item>
+                  <item>Puta</item>
+                  <item>To robbe</item>
+                  <item>Robar</item>
+                  <item>To playe</item>
+                  <item>Iugar</item>
+                  <item>I haue loſt .x. gyl<g ref="char:EOLunhyphen"/>dens in playenge</item>
+                  <item>Perdi .x. floryns iu<g ref="char:EOLhyphen"/>gando</item>
+                  <item>That is thy loſſe</item>
+                  <item>Es tu dagno</item>
+                  <item>It had ben better for thee, yf y<hi rend="sup">u</hi> had<g ref="char:EOLhyphen"/>deſte Clothed thy ſelfe with that money</item>
+                  <item>Meior fuera que te veſtiaras cam aquel<g ref="char:EOLhyphen"/>los dineros</item>
+                  <item>Thou ſaieſt truth</item>
+                  <item>Tu dizes la verdad</item>
+                  <item>But ſo is it not doone.</item>
+                  <item>Pero no es fecho.</item>
+               </list>
+            </div>
+            <trailer>¶ Finis.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>¶ Imprinted by me Robert wyer: Dwellynge in S. Martyns paryſhe, at the ſygne of ſaynt Iohn<g ref="char:cmbAbbrStroke">̄</g> Euangelyſt beſyde Charynge Croſſe.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
